@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400036, guid: 1849f9ac29fea7340b0d715b76b3a576, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 1849f9ac29fea7340b0d715b76b3a576, type: 3}
       propertyPath: m_LocalPosition.y
@@ -736,7 +736,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 561958798}
   m_LocalRotation: {x: -0.06943616, y: -0.5279098, z: 0.11029731, w: 0.83924043}
-  m_LocalPosition: {x: 0.4465441, y: -0.5121901, z: 4.041132}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 4}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 1023847635}
@@ -1282,7 +1282,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0

@@ -28,7 +28,7 @@ public class ChopTree : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currentTreeIndex < trees.Length)
+        if (currentTreeIndex + 1 < trees.Length)
         {
             trees[currentTreeIndex].SetActive(false);
             currentTreeIndex++;
